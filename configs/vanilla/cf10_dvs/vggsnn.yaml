@@ -1,0 +1,13 @@
+model: vggsnn_dvs
+batch_size: 128
+lr: 0.1
+weight_decay: 5e-4
+epochs: 300
+clip_grad_norm: 1.0
+data_type: cifar10_dvs_aug
+data_path: ~/datasets/cifar10dvs_aug
+output_dir: ./logs 
+print_freq: 256
+
+use_noise: False
+init_T: 4

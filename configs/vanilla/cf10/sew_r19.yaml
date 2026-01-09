@@ -1,0 +1,13 @@
+model: sew_resnet19
+batch_size: 128
+adam: True
+lr: 1e-3
+weight_decay: 5e-4
+epochs: 300
+data_type: cifar10
+data_path: ~/datasets/cifar10
+output_dir: ./logs 
+print_freq: 256
+
+use_noise: False
+init_T: 4

@@ -1,0 +1,12 @@
+model: resnet18
+batch_size: 128
+lr: 0.1
+weight_decay: 5e-4
+epochs: 300
+data_type: cifar10
+data_path: ~/datasets/cifar10
+output_dir: ./logs 
+print_freq: 256
+
+use_noise: False
+init_T: 4

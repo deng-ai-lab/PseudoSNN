@@ -1,0 +1,91 @@
+# ==========================
+# Python & Environment
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# ==========================
+# PyTorch & Checkpoints
+# ==========================
+*.pth
+*.pt
+*.ckpt
+*.pkl
+# Specific checkpoints from main.py
+checkpoint_latest.pth
+checkpoint_max_test_acc1.pth
+
+# ==========================
+# Logs & Outputs
+# ==========================
+# TensorBoard logs
+runs/
+events.out.tfevents.*
+train/events.out.tfevents.*
+test/events.out.tfevents.*
+
+# Weights & Biases (wandb)
+wandb/
+.wandb/
+
+# General Logs
+*.log
+logs/
+output/
+outputs/
+results/
+
+# Specific output file from main.py
+args.txt
+
+# ==========================
+# Data
+# ==========================
+data/
+datasets/
+# Common dataset folders if downloaded locally
+cifar-10-batches-py/
+cifar-100-python/
+ImageNet/
+
+# ==========================
+# IDE & System
+# ==========================
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ==========================
+# Latex / PDF (Optional)
+# ==========================
+# If you don't want to track the PDF manuscript or build files
+# *.pdf
+# *.aux
+# *.log
+# *.out
