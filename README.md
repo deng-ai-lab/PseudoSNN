@@ -1,7 +1,7 @@
-# Pseudo-Spiking Neurons
-
 <div align="center">
   
+  <h1>Pseudo-Spiking Neurons</h1>
+
   <a href="https://www.aaai.org">
     <img src="https://img.shields.io/badge/AAAI-2026-red?style=flat-square" alt="AAAI 2026">
   </a>
@@ -13,23 +13,7 @@
   </a>
 
   **A Noise-Based Training Framework for Heterogeneous-Latency Spiking Neural Networks**
-  
-  <div>
-    <strong>Yuxuan Zhang</strong><sup>1</sup>, 
-    <strong>Yuhang Sun</strong><sup>1,2</sup>, 
-    <strong>Hongjue Li</strong><sup>1</sup>, 
-    <strong>Yue Deng</strong><sup>1,2</sup>, 
-    <strong>Wen Yao</strong><sup>3*</sup>
-  </div>
-
-  <small>
-  <sup>1</sup>Beihang University, 
-  <sup>2</sup>Beijing Zhongguancun Academy, 
-  <sup>3</sup>Defense Innovation Institute, CAMS
-  </small>
 </div>
-
-<br/>
 
 <p align="center">
   <img src="./figs/main_fig.png" width="800" title="Overview of PseudoSNN Framework">
