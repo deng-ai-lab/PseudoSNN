@@ -43,7 +43,7 @@ PseudoSNN/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/deng-ai-lab//PseudoSNN.git
+git clone https://github.com/deng-ai-lab/PseudoSNN.git
 cd PseudoSNN
 ```
 
@@ -58,7 +58,7 @@ conda activate pseudosnn
 3. **Install dependencies:**
 ```bash
 # We recommend installing PyTorch manually to ensure the correct CUDA version
-pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url (https://download.pytorch.org/whl/cu121)
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
 
